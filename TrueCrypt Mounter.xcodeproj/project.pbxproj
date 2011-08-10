@@ -17,6 +17,7 @@
 		E5779A0113EE6C82002D8517 /* TrueCryptTask.m in Sources */ = {isa = PBXBuildFile; fileRef = E5779A0013EE6C82002D8517 /* TrueCryptTask.m */; };
 		E5B761B613EE1E2400B1AD0C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B761B513EE1E2400B1AD0C /* main.m */; };
 		E5B761BE13EE1E3800B1AD0C /* unmounter in Resources */ = {isa = PBXBuildFile; fileRef = E5B761B013EE1E2400B1AD0C /* unmounter */; };
+		E5E795B213F23C7700F4006F /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = E564A52E13F21B0500123499 /* RegexKitLite.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,8 @@
 		E5779A0013EE6C82002D8517 /* TrueCryptTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrueCryptTask.m; sourceTree = "<group>"; };
 		E5B761B013EE1E2400B1AD0C /* unmounter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = unmounter; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5B761B513EE1E2400B1AD0C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E5E795AE13F23BE400F4006F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		E5E795B013F23C4300F4006F /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,8 @@
 		E504977B13EE1BE10013FAD5 = {
 			isa = PBXGroup;
 			children = (
+				E5E795B013F23C4300F4006F /* LICENSE */,
+				E5E795AE13F23BE400F4006F /* README.md */,
 				E564A52D13F21B0500123499 /* RegexKitLite.h */,
 				E564A52E13F21B0500123499 /* RegexKitLite.m */,
 				E57618BB13EF304000ECED3B /* TrueCrypt Volume.icns */,
@@ -225,10 +230,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E504979713EE1BE10013FAD5 /* main.m in Sources */,
-				E504979E13EE1BE10013FAD5 /* AppDelegate.m in Sources */,
-				E5779A0113EE6C82002D8517 /* TrueCryptTask.m in Sources */,
 				E564A52F13F21B0500123499 /* RegexKitLite.m in Sources */,
+				E5779A0113EE6C82002D8517 /* TrueCryptTask.m in Sources */,
+				E504979E13EE1BE10013FAD5 /* AppDelegate.m in Sources */,
+				E504979713EE1BE10013FAD5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +241,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5E795B213F23C7700F4006F /* RegexKitLite.m in Sources */,
 				E534672513EF3B15002C2E6F /* TrueCryptTask.m in Sources */,
 				E5B761B613EE1E2400B1AD0C /* main.m in Sources */,
 			);
