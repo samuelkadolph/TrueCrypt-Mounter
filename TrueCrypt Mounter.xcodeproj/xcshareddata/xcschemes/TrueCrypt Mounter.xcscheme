@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   version = "1.7">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "E504978513EE1BE10013FAD5"
+               BuildableName = "TrueCrypt Mounter.app"
+               BlueprintName = "TrueCrypt Mounter"
+               ReferencedContainer = "container:TrueCrypt Mounter.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.GDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.GDB"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      buildConfiguration = "Debug">
+      <Testables>
+      </Testables>
+   </TestAction>
+   <LaunchAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.GDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.GDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "E504978513EE1BE10013FAD5"
+            BuildableName = "TrueCrypt Mounter.app"
+            BlueprintName = "TrueCrypt Mounter"
+            ReferencedContainer = "container:TrueCrypt Mounter.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Release">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "E504978513EE1BE10013FAD5"
+            BuildableName = "TrueCrypt Mounter.app"
+            BlueprintName = "TrueCrypt Mounter"
+            ReferencedContainer = "container:TrueCrypt Mounter.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+      <PostActions>
+         <ExecutionAction
+            ActionType = "Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
+            <ActionContent
+               title = "Run Script"
+               scriptText = "dir=&quot;$TEMP_DIR/dmg&quot;&#10;dmg=&quot;$BUILT_PRODUCTS_DIR/$PRODUCT_NAME.dmg&quot;&#10;&#10;rm -rf &quot;$dir&quot; &quot;$dmg&quot;&#10;mkdir &quot;$dir&quot;&#10;&#10;cp -r &quot;$BUILD_PRODUCTS_DIR/$FULL_PRODUCT_NAME&quot; &quot;$dir&quot;&#10;hdiutil create -srcfolder &quot;$dir&quot; -volname &quot;$PRODUCT_NAME&quot; &quot;$dmg&quot;&#10;hdiutil internet-enable -yes &quot;$dmg&quot;&#10;">
+               <EnvironmentBuildable>
+                  <BuildableReference
+                     BuildableIdentifier = "primary"
+                     BlueprintIdentifier = "E504978513EE1BE10013FAD5"
+                     BuildableName = "TrueCrypt Mounter.app"
+                     BlueprintName = "TrueCrypt Mounter"
+                     ReferencedContainer = "container:TrueCrypt Mounter.xcodeproj">
+                  </BuildableReference>
+               </EnvironmentBuildable>
+            </ActionContent>
+         </ExecutionAction>
+      </PostActions>
+   </ArchiveAction>
+</Scheme>

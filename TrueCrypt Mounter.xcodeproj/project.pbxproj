@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E504979713EE1BE10013FAD5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E504979613EE1BE10013FAD5 /* main.m */; };
+		E504979E13EE1BE10013FAD5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E504979D13EE1BE10013FAD5 /* AppDelegate.m */; };
+		E534672513EF3B15002C2E6F /* TrueCryptTask.m in Sources */ = {isa = PBXBuildFile; fileRef = E5779A0013EE6C82002D8517 /* TrueCryptTask.m */; };
+		E564A52F13F21B0500123499 /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = E564A52E13F21B0500123499 /* RegexKitLite.m */; };
+		E57618BC13EF304000ECED3B /* TrueCrypt Volume.icns in Resources */ = {isa = PBXBuildFile; fileRef = E57618BB13EF304000ECED3B /* TrueCrypt Volume.icns */; };
+		E57799FB13EE5F19002D8517 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E57799FA13EE5F19002D8517 /* Cocoa.framework */; };
+		E57799FD13EE5F59002D8517 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E57799FC13EE5F59002D8517 /* Cocoa.framework */; };
+		E5779A0113EE6C82002D8517 /* TrueCryptTask.m in Sources */ = {isa = PBXBuildFile; fileRef = E5779A0013EE6C82002D8517 /* TrueCryptTask.m */; };
+		E5B761B613EE1E2400B1AD0C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B761B513EE1E2400B1AD0C /* main.m */; };
+		E5B761BE13EE1E3800B1AD0C /* unmounter in Resources */ = {isa = PBXBuildFile; fileRef = E5B761B013EE1E2400B1AD0C /* unmounter */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E5B761BC13EE1E2A00B1AD0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E504977D13EE1BE10013FAD5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5B761AF13EE1E2400B1AD0C;
+			remoteInfo = unmounter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E5B761AE13EE1E2400B1AD0C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E504978613EE1BE10013FAD5 /* TrueCrypt Mounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TrueCrypt Mounter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E504978D13EE1BE10013FAD5 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		E504978E13EE1BE10013FAD5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E504978F13EE1BE10013FAD5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E504979213EE1BE10013FAD5 /* TrueCrypt Mounter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TrueCrypt Mounter-Info.plist"; sourceTree = "<group>"; };
+		E504979613EE1BE10013FAD5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E504979C13EE1BE10013FAD5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E504979D13EE1BE10013FAD5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E564A52D13F21B0500123499 /* RegexKitLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegexKitLite.h; sourceTree = "<group>"; };
+		E564A52E13F21B0500123499 /* RegexKitLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegexKitLite.m; sourceTree = "<group>"; };
+		E57618BB13EF304000ECED3B /* TrueCrypt Volume.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "TrueCrypt Volume.icns"; sourceTree = "<group>"; };
+		E57799FA13EE5F19002D8517 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		E57799FC13EE5F59002D8517 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		E57799FF13EE6C82002D8517 /* TrueCryptTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrueCryptTask.h; sourceTree = "<group>"; };
+		E5779A0013EE6C82002D8517 /* TrueCryptTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrueCryptTask.m; sourceTree = "<group>"; };
+		E5B761B013EE1E2400B1AD0C /* unmounter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = unmounter; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5B761B513EE1E2400B1AD0C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E504978313EE1BE10013FAD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E57799FB13EE5F19002D8517 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5B761AD13EE1E2400B1AD0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E57799FD13EE5F59002D8517 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E504977B13EE1BE10013FAD5 = {
+			isa = PBXGroup;
+			children = (
+				E564A52D13F21B0500123499 /* RegexKitLite.h */,
+				E564A52E13F21B0500123499 /* RegexKitLite.m */,
+				E57618BB13EF304000ECED3B /* TrueCrypt Volume.icns */,
+				E57799FF13EE6C82002D8517 /* TrueCryptTask.h */,
+				E5779A0013EE6C82002D8517 /* TrueCryptTask.m */,
+				E504979013EE1BE10013FAD5 /* TrueCrypt Mounter */,
+				E5B761B413EE1E2400B1AD0C /* unmounter */,
+				E504978913EE1BE10013FAD5 /* Frameworks */,
+				E504978713EE1BE10013FAD5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E504978713EE1BE10013FAD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E504978613EE1BE10013FAD5 /* TrueCrypt Mounter.app */,
+				E5B761B013EE1E2400B1AD0C /* unmounter */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E504978913EE1BE10013FAD5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E57799FC13EE5F59002D8517 /* Cocoa.framework */,
+				E57799FA13EE5F19002D8517 /* Cocoa.framework */,
+				E504978C13EE1BE10013FAD5 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E504978C13EE1BE10013FAD5 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E504978D13EE1BE10013FAD5 /* AppKit.framework */,
+				E504978E13EE1BE10013FAD5 /* CoreData.framework */,
+				E504978F13EE1BE10013FAD5 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		E504979013EE1BE10013FAD5 /* TrueCrypt Mounter */ = {
+			isa = PBXGroup;
+			children = (
+				E504979213EE1BE10013FAD5 /* TrueCrypt Mounter-Info.plist */,
+				E504979C13EE1BE10013FAD5 /* AppDelegate.h */,
+				E504979D13EE1BE10013FAD5 /* AppDelegate.m */,
+				E504979613EE1BE10013FAD5 /* main.m */,
+			);
+			path = "TrueCrypt Mounter";
+			sourceTree = "<group>";
+		};
+		E5B761B413EE1E2400B1AD0C /* unmounter */ = {
+			isa = PBXGroup;
+			children = (
+				E5B761B513EE1E2400B1AD0C /* main.m */,
+			);
+			path = unmounter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E504978513EE1BE10013FAD5 /* TrueCrypt Mounter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E50497A413EE1BE10013FAD5 /* Build configuration list for PBXNativeTarget "TrueCrypt Mounter" */;
+			buildPhases = (
+				E504978213EE1BE10013FAD5 /* Sources */,
+				E504978313EE1BE10013FAD5 /* Frameworks */,
+				E504978413EE1BE10013FAD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E5B761BD13EE1E2A00B1AD0C /* PBXTargetDependency */,
+			);
+			name = "TrueCrypt Mounter";
+			productName = "TrueCrypt Mounter";
+			productReference = E504978613EE1BE10013FAD5 /* TrueCrypt Mounter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E5B761AF13EE1E2400B1AD0C /* unmounter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5B761B913EE1E2400B1AD0C /* Build configuration list for PBXNativeTarget "unmounter" */;
+			buildPhases = (
+				E5B761AC13EE1E2400B1AD0C /* Sources */,
+				E5B761AD13EE1E2400B1AD0C /* Frameworks */,
+				E5B761AE13EE1E2400B1AD0C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = unmounter;
+			productName = unmounter;
+			productReference = E5B761B013EE1E2400B1AD0C /* unmounter */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E504977D13EE1BE10013FAD5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Samuel Kadolph";
+			};
+			buildConfigurationList = E504978013EE1BE10013FAD5 /* Build configuration list for PBXProject "TrueCrypt Mounter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E504977B13EE1BE10013FAD5;
+			productRefGroup = E504978713EE1BE10013FAD5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E504978513EE1BE10013FAD5 /* TrueCrypt Mounter */,
+				E5B761AF13EE1E2400B1AD0C /* unmounter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E504978413EE1BE10013FAD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5B761BE13EE1E3800B1AD0C /* unmounter in Resources */,
+				E57618BC13EF304000ECED3B /* TrueCrypt Volume.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E504978213EE1BE10013FAD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E504979713EE1BE10013FAD5 /* main.m in Sources */,
+				E504979E13EE1BE10013FAD5 /* AppDelegate.m in Sources */,
+				E5779A0113EE6C82002D8517 /* TrueCryptTask.m in Sources */,
+				E564A52F13F21B0500123499 /* RegexKitLite.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5B761AC13EE1E2400B1AD0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E534672513EF3B15002C2E6F /* TrueCryptTask.m in Sources */,
+				E5B761B613EE1E2400B1AD0C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E5B761BD13EE1E2A00B1AD0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E5B761AF13EE1E2400B1AD0C /* unmounter */;
+			targetProxy = E5B761BC13EE1E2A00B1AD0C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E50497A213EE1BE10013FAD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E50497A313EE1BE10013FAD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E50497A513EE1BE10013FAD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "TrueCrypt Mounter/TrueCrypt Mounter-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				OTHER_LDFLAGS = "-licucore";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E50497A613EE1BE10013FAD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "TrueCrypt Mounter/TrueCrypt Mounter-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				OTHER_LDFLAGS = "-licucore";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E5B761BA13EE1E2400B1AD0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E5B761BB13EE1E2400B1AD0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E504978013EE1BE10013FAD5 /* Build configuration list for PBXProject "TrueCrypt Mounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E50497A213EE1BE10013FAD5 /* Debug */,
+				E50497A313EE1BE10013FAD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E50497A413EE1BE10013FAD5 /* Build configuration list for PBXNativeTarget "TrueCrypt Mounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E50497A513EE1BE10013FAD5 /* Debug */,
+				E50497A613EE1BE10013FAD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5B761B913EE1E2400B1AD0C /* Build configuration list for PBXNativeTarget "unmounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5B761BA13EE1E2400B1AD0C /* Debug */,
+				E5B761BB13EE1E2400B1AD0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E504977D13EE1BE10013FAD5 /* Project object */;
+}
