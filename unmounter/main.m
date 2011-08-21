@@ -14,9 +14,7 @@
 int main (int argc, const char * argv[])
 {
   if (argc != 3)
-  {
     exit(1);
-  }
   
   NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
   
@@ -28,27 +26,21 @@ int main (int argc, const char * argv[])
   NSTask * task = [TrueCryptTask runTrueCryptTask:@"--text", @"-d", path, nil];
   
   if ([task terminationStatus] != 0)
-  {
     NSLog(@"Unable to dismount TrueCrypt disk");
-  }
   else
-  {
     NSLog(@"Dismounted %s", cPath);
-  }
   
   launch_data_t message = launch_data_alloc(LAUNCH_DATA_DICTIONARY);
   launch_data_dict_insert(message, launch_data_new_string(cLabel), LAUNCH_KEY_REMOVEJOB);
   launch_data_t response = launch_msg(message);
   
   if (!response || launch_data_get_errno(response) != ERR_SUCCESS)
-  {
     NSLog(@"Unable to remove service");
-  }
   
   launch_data_free(message);
   launch_data_free(response);
   
-  [pool release];
+  [pool drain];
   return 0;
 }
 

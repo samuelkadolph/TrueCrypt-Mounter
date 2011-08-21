@@ -11,11 +11,13 @@
 
 int main(int argc, char *argv[])
 {
+  NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
   NSApplication * application = [NSApplication sharedApplication];
   
   [application setDelegate:[[AppDelegate alloc] init]];
   [application run];
   [application setDelegate:nil];
   
+  [pool drain];
   return 0;
 }

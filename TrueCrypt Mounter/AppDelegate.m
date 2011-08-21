@@ -19,12 +19,13 @@ static void submitUnmounterService(NSString * path, NSString * mountPath)
   int pid = [[NSProcessInfo processInfo] processIdentifier];
   NSString * label = [NSString stringWithFormat:@"org.samuelkadolph.TrueCrypt-Mounter.%d", pid];
   const char * cLabel = [label cStringUsingEncoding:NSUTF8StringEncoding];
-  launch_data_dict_insert(job, launch_data_new_string(cLabel), LAUNCH_JOBKEY_LABEL);
-  
-  launch_data_t args = launch_data_alloc(LAUNCH_DATA_ARRAY);
   const char * unmounter = [[[NSBundle mainBundle] pathForResource:@"unmounter" ofType:@""] UTF8String];
   const char * cPath = [path UTF8String];
   const char * cMountPath = [mountPath UTF8String];
+  
+  launch_data_dict_insert(job, launch_data_new_string(cLabel), LAUNCH_JOBKEY_LABEL);
+  
+  launch_data_t args = launch_data_alloc(LAUNCH_DATA_ARRAY);
   launch_data_array_set_index(args, launch_data_new_string(unmounter), 0);
   launch_data_array_set_index(args, launch_data_new_string(cLabel), 1);
   launch_data_array_set_index(args, launch_data_new_string(cPath), 2);
@@ -87,9 +88,9 @@ static void submitUnmounterService(NSString * path, NSString * mountPath)
     [dialog setTitle:@"Open TrueCrypt Volume"];
     
     if ([dialog runModal] == NSOKButton)
-    {
       volumeFilename = [[[dialog URLs] objectAtIndex:0] path];
-    }
+    else
+      exit(0);
   }
   
   NSString * mountPath;
