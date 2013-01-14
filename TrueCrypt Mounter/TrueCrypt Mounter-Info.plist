@@ -44,7 +44,7 @@
 	<key>LSUIElement</key>
 	<true/>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2011 Samuel Kadolph. All rights reserved.</string>
+	<string>Copyright © 2011 Samuel Kadolph</string>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
 	<key>NSServices</key>
